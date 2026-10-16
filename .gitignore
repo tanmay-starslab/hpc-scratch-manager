@@ -1,0 +1,25 @@
+# Runtime and personal settings belong outside this repository.
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
+.pytest_cache/
+config.json
+config.*.json
+!examples/config.example.json
+*.local.*
+.env
+.env.*
+state/
+logs/
+reports/
+*.sqlite*
+*.jsonl
+*.log
+*.pem
+*.key
